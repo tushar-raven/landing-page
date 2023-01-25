@@ -11,13 +11,6 @@
     font-weight: bolder;
 }
 
-.hero-section {
-    background-color: #1F2937;
-    display: flex;
-    padding: 60px 200px;
-    align-items: center;
-}
-
 .header {
     background-color: #1F2937;
     display: flex;
@@ -26,20 +19,32 @@
     padding: 24px 200px;
 }
 
+.hero-section {
+    background-color: #1F2937;
+    display: flex;
+    padding: 60px 200px;
+    align-items: center;
+}
+
 .hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
     margin-right: 36px;
 }
 
-h1{
+.hero-text{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 12px;
 }
 
-h2{
+.hero-subtext {
     font-size: 18px;
     color: #E5E7Eb;
-    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 button {
@@ -50,7 +55,7 @@ button {
     border-style: solid;
     font-size: 18px;
     color: #F9FAF8;
-    margin-top: 12px;
+    align-self: flex-start;
 }
 
 img {
