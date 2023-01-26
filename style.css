@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .header {
@@ -36,7 +37,7 @@
 
 .hero-text{
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #F9FAF8;
     margin-bottom: 12px;
 }
@@ -47,7 +48,73 @@
     margin-bottom: 12px;
 }
 
-button {
+.hero-image {
+    width: 540px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 48px 200px;
+}
+
+.info-text {
+    margin-bottom: 48px;
+    color: #1F2937;
+    font-weight: 36px;
+    font-weight: bold;
+}
+
+.image-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-text {
+    width: 150px;
+    text-align: center;
+}
+
+.image-flex img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: #3882F6 solid 6px;
+    border-radius: 10px;
+}
+
+.quote-section {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    padding: 72px 300px;
+}
+
+.testimonial {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.giver {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.button {
     padding: 8px 40px;
     border-radius: 10px;
     background-color: #3882F6;
@@ -58,16 +125,47 @@ button {
     align-self: flex-start;
 }
 
-img {
-    width: 540px;
-    height: 300px;
-    object-fit: cover;
-}
-
-.links {
+.blue-cta {
+    background-color: #3882F6;
+    margin: 48px 200px;
+    padding: 48px 100px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-text{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-sub-text {
+    color: #E5E7Eb;
+    font-size: 18px;
+}
+
+.cta-button {
+    padding: 8px 40px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-style: solid;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 36px 0;
+    color: #F9FAF8;
 }
 
 a {
